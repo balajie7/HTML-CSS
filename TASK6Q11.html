@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Types of Input Elements</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Form with All Input Types</h1>
+        <form action="submit_form.php" method="post">
+            <label for="text">Text Input:</label>
+            <input type="text" id="text" name="text" placeholder="Enter text here"><br><br>
+            
+            <label for="email">Email Input:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+            
+            <label for="password">Password Input:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+            
+            <label for="number">Number Input:</label>
+            <input type="number" id="number" name="number" min="1" max="100" placeholder="Enter a number"><br><br>
+            
+            <label for="date">Date Input:</label>
+            <input type="date" id="date" name="date"><br><br>
+            
+            <label>Radio Buttons:</label><br>
+            <label>
+                <input type="radio" id="radio1" name="radio" value="option1">
+                Option 1
+            </label><br>
+            <label>
+                <input type="radio" id="radio2" name="radio" value="option2">
+                Option 2
+            </label><br><br>
+            
+            <label>Checkboxes:</label><br>
+            <label>
+                <input type="checkbox" id="checkbox1" name="checkbox1" checked>
+                Checkbox 1
+            </label><br>
+            <label>
+                <input type="checkbox" id="checkbox2" name="checkbox2">
+                Checkbox 2
+            </label><br><br>
+            
+            <label for="file">File Input:</label>
+            <input type="file" id="file" name="file"><br><br>
+            
+            <label for="range">Range Slider:</label>
+            <input type="range" id="range" name="range" min="0" max="100" value="50"><br><br>
+            
+            <label for="textarea">Textarea:</label>
+            <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Enter your message here"></textarea><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Default Values</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Form with Default Values</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="John Doe" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="john.doe@example.com" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="password123" required><br><br>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" value="30" required><br><br>
+            
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" value="1994-01-01" required><br><br>
+            
+            <label>
+                <input type="checkbox" id="subscribe" name="subscribe" checked>
+                Subscribe to newsletter
+            </label><br><br>
+            
+            <label>Gender:</label><br>
+            <label>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                Male
+            </label><br>
+            <label>
+                <input type="radio" id="female" name="gender" value="female">
+                Female
+            </label><br><br>
+            
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="us" selected>United States</option>
+                <option value="ca">Canada</option>
+                <option value="uk">United Kingdom</option>
+            </select><br><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50">Hello, this is a default message.</textarea><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
