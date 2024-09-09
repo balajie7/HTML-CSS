@@ -1,0 +1,13 @@
+
+<script>
+    function runTests() {
+     
+        console.assert(document.getElementById('display').textContent === '0', 'Initial display should be 0');
+
+        document.querySelector('button[data-value="1"]').click();
+        console.assert(document.getElementById('display').textContent === '1', 'Display should show 1 after clicking 1');
+        
+ 
+    }
+    document.addEventListener('DOMContentLoaded', runTests);
+</script>
